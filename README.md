@@ -121,4 +121,8 @@ FileInputStream poem = new FileInputStream("C:\\Users\\李晨香\\Desktop\\poem.
 ![](https://github.com/Li-ChenXiang/Java11-23/blob/main/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20201201155718.jpg)
 
 ## 六、实验感想
-实验过程中遇到的问题：1.在读取poem文件中的信息时出现乱码； 解决方法：添加InputStreamReader方法，对； 2.捕获异常后，无法重新输入信息；解决方法：在catch方法体中输入年龄和薪水的调用语句。
+1.实验过程中遇到的问题：
+在读取poem文件中的信息时出现乱码； 解决方法：添加InputStreamReader p = new InputStreamReader(poem, "UTF-8");方法，对中文乱码进行处理； 
+
+2.实验感想
+通过本次实验，采用交互式的方式实例化学生；使用InputStreamReader方法读取poem文件中的信息，并用“UTF-8”进行中文乱码处理；使用OutputStreamWriter方法将学生信息写入Student文件中；使用StringBuffer对古诗进行标点符号的处理。
