@@ -28,8 +28,7 @@
 4.对文本文件B中获取到的信息进行整理，再将其存到文件A中；
 
 ## 四、核心方法
-1.方法一
-创建学生集合
+1.创建学生集合
 ```
 ArrayList<Student> students = new ArrayList<Student>();
 		try {
@@ -54,8 +53,7 @@ ArrayList<Student> students = new ArrayList<Student>();
 		}
 ```
 
-2.方法二
-为古诗《长恨歌》添加标点符号
+2.为古诗《长恨歌》添加标点符号
 ```
 String line = br.readLine();
 		StringBuffer sb = new StringBuffer();
@@ -74,8 +72,7 @@ String line = br.readLine();
 		}
 ```
 
-3.方法三
-将学生的基本信息储存到文本中
+3.将学生的基本信息储存到文本中
 ```
 for (Student stu : students) {
 			// 把student信息存到文本文件中
@@ -97,8 +94,7 @@ for (Student stu : students) {
 		// 释放资源
 		bw.close();
 ```
-4.方法四
-读取poem.txt中的信息
+4.读取poem.txt中的信息
 ```
 FileInputStream poem = new FileInputStream("C:\\Users\\李晨香\\Desktop\\poem.txt");
 		InputStreamReader p = new InputStreamReader(poem, "UTF-8");// 处理中文乱码
@@ -117,11 +113,10 @@ FileInputStream poem = new FileInputStream("C:\\Users\\李晨香\\Desktop\\poem.
 学生信息已保存到文件中！
 ```
 2.将学生信息储存到文本文件的运行结果
-![Image](https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C8A8957CD4A5DB6A45A59B617C73A1F4FD0BEDDE39BC421CA545DEF3D8DE81941BD1BA61C3EB4B43DDDAB724AB05642F8CDA5A9594577E6B370C6770D06B6EFE2A41CEB0D18E95F8CF8BD84F9995D2013&mailid=ZL2001-hCFqpWqccvI3WjZpTLY5bac&sid=ROEo6SbTCIhNTyN8&net=889192575)
+! [Image] (https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C8A8957CD4A5DB6A45A59B617C73A1F4FD0BEDDE39BC421CA545DEF3D8DE81941BD1BA61C3EB4B43DDDAB724AB05642F8CDA5A9594577E6B370C6770D06B6EFE2A41CEB0D18E95F8CF8BD84F9995D2013&mailid=ZL2001-hCFqpWqccvI3WjZpTLY5bac&sid=ROEo6SbTCIhNTyN8&net=889192575)
 
 3.整理后的古诗存到学生文件中的运行结果
-![Image](https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C9A31CBFFCEBEA0905E01F82DA93354A3A9096E7FBBBDE304A08B86DB3F9511366241D717C81A2395CFA3AC35AF5D0B80109B0DF2893A674D031E65CFF2C343CAEED856536C2762CD81BED722684D502B&mailid=ZL1901-PJkK6CfQe_s%7EEX0iXhf%7ELac&sid=ROEo6SbTCIhNTyN8&net=889192575)
-
+! [Image] (https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C9A31CBFFCEBEA0905E01F82DA93354A3A9096E7FBBBDE304A08B86DB3F9511366241D717C81A2395CFA3AC35AF5D0B80109B0DF2893A674D031E65CFF2C343CAEED856536C2762CD81BED722684D502B&mailid=ZL1901-PJkK6CfQe_s%7EEX0iXhf%7ELac&sid=ROEo6SbTCIhNTyN8&net=889192575)
 
 ## 六、实验感想
-实验过程中遇到的问题：1.在创建自定义异常类后，在Main方发中运行时无法捕获异常； 解决方法：在对应try-catch块中调用相应的异常； 2.捕获异常后，无法重新输入信息；解决方法：在catch方法体中输入年龄和薪水的调用语句。
+实验过程中遇到的问题：1.在读取poem文件中的信息时出现乱码； 解决方法：添加InputStreamReader方法，对； 2.捕获异常后，无法重新输入信息；解决方法：在catch方法体中输入年龄和薪水的调用语句。
