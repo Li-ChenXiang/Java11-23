@@ -118,7 +118,7 @@ FileInputStream poem = new FileInputStream("C:\\Users\\李晨香\\Desktop\\poem.
 
 3.整理后的古诗存到学生文件中的运行结果
 
-! [Image text] (https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C9A31CBFFCEBEA0905E01F82DA93354A3A9096E7FBBBDE304A08B86DB3F9511366241D717C81A2395CFA3AC35AF5D0B80109B0DF2893A674D031E65CFF2C343CAEED856536C2762CD81BED722684D502B&mailid=ZL1901-PJkK6CfQe_s%7EEX0iXhf%7ELac&sid=ROEo6SbTCIhNTyN8&net=889192575)
+ ! [] (https://github.com/Li-ChenXiang/Java11-23/blob/main/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20201201155718.jpg)
 
 ## 六、实验感想
 实验过程中遇到的问题：1.在读取poem文件中的信息时出现乱码； 解决方法：添加InputStreamReader方法，对； 2.捕获异常后，无法重新输入信息；解决方法：在catch方法体中输入年龄和薪水的调用语句。
