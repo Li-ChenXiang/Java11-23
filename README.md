@@ -114,7 +114,7 @@ FileInputStream poem = new FileInputStream("C:\\Users\\李晨香\\Desktop\\poem.
 ```
 2.将学生信息储存到文本文件的运行结果
 
-! [Image text] (https://mail.qq.com/cgi-bin/viewfile?f=BBCA6329545CD616B74378116DAB308C8A8957CD4A5DB6A45A59B617C73A1F4FD0BEDDE39BC421CA545DEF3D8DE81941BD1BA61C3EB4B43DDDAB724AB05642F8CDA5A9594577E6B370C6770D06B6EFE2A41CEB0D18E95F8CF8BD84F9995D2013&mailid=ZL2001-hCFqpWqccvI3WjZpTLY5bac&sid=ROEo6SbTCIhNTyN8&net=889192575)
+! [Image text] (https://github.com/Li-ChenXiang/Java11-23/blob/main/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20201201153648.jpg)
 
 3.整理后的古诗存到学生文件中的运行结果
 
